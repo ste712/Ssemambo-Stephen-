@@ -1,0 +1,131 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border;
+}
+body{
+font-family: Arial,
+sans-serif;
+line-height: 1.6;
+color: #333;
+background-color: #f4f4f4;
+}
+.container{
+width:90%;
+max-width: 1200px;
+margin: auto;
+overflow: auto;
+}
+header{
+background-color: #333;
+color: #fff;
+padding: 1rem 0;
+text-align: center;
+}
+header h1{
+font-size: 2rem;
+font-weight: bold;
+}
+header nav ul{
+display: flex;
+justify-content: center;
+life-style: none;
+}
+header nav ul li{
+margin: 0 1rem;
+}
+header nav ul li a:hover{
+color: #ffd700;
+}
+section{
+padding: 2rem 0;
+}
+h2{
+font-size: 1.8rem;
+margin-bottom: 1rem;
+color: #333;
+}
+.HOME{
+text-align: center;
+padding: 4rem 0;
+background:
+url('background-image.jpg')
+no-repeat center center/cover;
+color: #fff;
+.HOME h2{
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+.HOME p{
+font-size: 1.1rem;
+max-width: 600px;
+margin: auto;
+}
+.About us{
+background-color: #fff;
+color: #333;
+padding: 2rem;
+}
+.About us p{
+line-height: 1.8;
+max-width: 800px;
+margin; auto;
+}
+.Gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+}
+.Gallery img{
+width: 100%
+max-width: 300px;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0,0,0,0,0.2);
+}
+.Contact-us{
+background-color: #eee;
+padding: 2rem;
+}
+.Contact us form{
+max-width: 600px;
+margin: auto;
+}
+.Contact us-form label{
+display: block;
+font-weight: bold;
+margin-top: 1rem;
+}
+.Contact us-form input,
+.Contact us-form textarea{
+width: 100%;
+padding: o.5rem;
+margin-top: o.5rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.Contact us-form
+input[type="submit"]:hover{
+background-color: #ffd700;
+}
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1rem 0;
+margin-top: 2rem;
+}
+footer p{
+font-size: o.9rem;
+}
+
+@media(max-width: 768px){
+header nav ul{
+flex-direction: column;
+}
+.Gallery img{
+max-width: 100%;
+}
+}
+
+

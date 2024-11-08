@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<head>
+<title></title>
+</head>
+<body>
+<!---Navigation Bar Container--->
+<nav>
+<!---Navigation Links--->
+<div class="nav-link"><a href="#">About us</a><div>
+<div class="nav-link"><a href="#">Contact us</a><div>
+<div class="nav-link"><a href="#">Gallery</a><div>
+<div class="nav-link"><a href="#">HOME</a><div>
+</body>
+</html>
